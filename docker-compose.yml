@@ -6,6 +6,9 @@ services:
     build:
       context: .
     container_name: app
+    restart: always
+    ports:
+      - 9090:9090
     depends_on:
       - db
     environment:

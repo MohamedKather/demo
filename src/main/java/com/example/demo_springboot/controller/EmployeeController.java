@@ -22,7 +22,6 @@ import com.example.demo_springboot.exception.UserAlreadyExistException;
 import com.example.demo_springboot.service.EmployeeService;
 
 @RestController
-
 public class EmployeeController {
 	
 	@Autowired
